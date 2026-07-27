@@ -1,0 +1,21 @@
+{
+  "schema_version": "eikona.request.v1",
+  "kind": "image.edit",
+  "model_ref": "openai:gpt-image-2",
+  "prompt": "重做这张南江城市方向图的地理布局，保留原有暖色纸张、墨线水彩世界观地图风格、南北箭头、河流和入海口，但修正城市尺度与区域关系。参考广州式大型河口城市的空间感：地图范围明显扩大，采用宽阔的南北向城市盆地和多水系结构，中心建成区、外围山地、远郊岛洲和临海港区之间要有清楚距离，不能像六个景点挤在一张小图里。必须新增一个独立的大型“南江新城区”，位于南江老城东侧/东北侧，形成连续的现代高层城市、CBD、住宅、交通枢纽和新行政中心；它不能和教育区重叠。重新安排六个核心圈：1. 南江老城在西南/中西部低洼旧城；2. 南江新城区在中心偏东，面积最大；3. 江湾教育区在中心城北侧沿江的教育科创带，和新城区相邻但独立；4. 东湾学院城移到更远的东南/东方岛洲，至少隔着一到两条水道和桥梁，不能与江湾教育区重叠；5. 北岸高地在北部丘陵边缘；6. 外环山地/水库在最北和东北外围；7. 港区仓储低地在最南侧入海口和东南沿海，面积宽阔。标签必须清晰使用简体中文：南江城市方向图、外环山地/水库、北岸高地/军管线、南江老城、南江新城区、江湾教育区、东湾学院城、港区仓储低地、南江主航道、入海口。用细线标注主要道路、桥梁、隧道和跨江快速路，并增加一个“示意比例”视觉提示，让城市看起来接近广州式大都市尺度。不要删除新城区，不要让教育区和学院城共享同一个圆圈，不要现实地图、不要人物、不要水印、不要小字段落、不要矢量/SVG风格。",
+  "reference_images": [
+    "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103132_351743878/inputs/job_001/city-direction-map.png"
+  ],
+  "input_refs": [
+    {
+      "role": "reference_image",
+      "order": 0,
+      "source": "legacy",
+      "original_path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/city-direction-map.png",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103132_351743878/inputs/job_001/city-direction-map.png",
+      "sha256": "344c05e8d8a837654f8a2566628725f611a3813d31b5c19dea4b3e6c64507b25",
+      "size_bytes": 3867502,
+      "mime_type": "image/png"
+    }
+  ]
+}

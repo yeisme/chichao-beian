@@ -1,0 +1,244 @@
+{
+  "schema_version": "skillctl_scenario_lock.v1",
+  "scenario_id": "auctra-scenario-novel",
+  "skill_set": "creative-writing-chinese-novel",
+  "agent_homes": [
+    "agents",
+    "claude"
+  ],
+  "auctra_manifest_hash": "b1731c7719d7d93b87827586039d7ba4f345e8c8b556ad44d20c436ccfd7c96f",
+  "installed_at": "2026-06-24T10:25:17.878517125Z",
+  "skills": [
+    {
+      "name": "chinese-novel-orchestrator",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-orchestrator",
+      "source_digest": "fa60f01f5d836c47cbeabfd96171e798f5f72de55d39d52728298d6923fb3b8a",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-orchestrator",
+        "available": ".skillctl/available/_creative/chinese-novel-orchestrator",
+        "claude": ".claude/skills/chinese-novel-orchestrator"
+      }
+    },
+    {
+      "name": "chinese-novel-brief-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-brief-architect",
+      "source_digest": "99c8c05f17ab977843b232e6fb003ed23faa5d3d43476bfa679d9f84794a3cea",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-brief-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-brief-architect",
+        "claude": ".claude/skills/chinese-novel-brief-architect"
+      }
+    },
+    {
+      "name": "chinese-novel-genre-contract-strategist",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-genre-contract-strategist",
+      "source_digest": "cba55e5a716996cbc68c068b960b49ee908b923a882dbdfaa768d6eb001d9059",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-genre-contract-strategist",
+        "available": ".skillctl/available/_creative/chinese-novel-genre-contract-strategist",
+        "claude": ".claude/skills/chinese-novel-genre-contract-strategist"
+      }
+    },
+    {
+      "name": "chinese-novel-project-bible-keeper",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-project-bible-keeper",
+      "source_digest": "5e569388a100f8d0da6898544f5838471deeb894d8d2e31af19fe43ddbd461eb",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-project-bible-keeper",
+        "available": ".skillctl/available/_creative/chinese-novel-project-bible-keeper",
+        "claude": ".claude/skills/chinese-novel-project-bible-keeper"
+      }
+    },
+    {
+      "name": "chinese-novel-outline-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-outline-architect",
+      "source_digest": "16bbbf6eeef5247da9f1f5edc39eb1eef7e6c0cb6ba645335ff3db8782eeb7af",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-outline-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-outline-architect",
+        "claude": ".claude/skills/chinese-novel-outline-architect"
+      }
+    },
+    {
+      "name": "chinese-novel-volume-arc-planner",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-volume-arc-planner",
+      "source_digest": "6e458bb76074ee8f099e9eb7737c5ddcf6d21ea1b9bf6e4961e70edd8b35365e",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-volume-arc-planner",
+        "available": ".skillctl/available/_creative/chinese-novel-volume-arc-planner",
+        "claude": ".claude/skills/chinese-novel-volume-arc-planner"
+      }
+    },
+    {
+      "name": "chinese-novel-character-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-character-architect",
+      "source_digest": "e8b142a3eadabde834ea3876d28a816f50dc1d345a8efb7195f365db9a78b517",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-character-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-character-architect",
+        "claude": ".claude/skills/chinese-novel-character-architect"
+      }
+    },
+    {
+      "name": "chinese-novel-scene-card-writer",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-scene-card-writer",
+      "source_digest": "729f576ecc1337bf5da15dc3438ab59b5da1db13572ac0ba7d744e1137aa8726",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-scene-card-writer",
+        "available": ".skillctl/available/_creative/chinese-novel-scene-card-writer",
+        "claude": ".claude/skills/chinese-novel-scene-card-writer"
+      }
+    },
+    {
+      "name": "chinese-novel-chapter-writer",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-chapter-writer",
+      "source_digest": "40dcdd2fe3eb14712cd74e46b846beb5b04df3a8c8006ac669201d4cc640ab92",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-chapter-writer",
+        "available": ".skillctl/available/_creative/chinese-novel-chapter-writer",
+        "claude": ".claude/skills/chinese-novel-chapter-writer"
+      }
+    },
+    {
+      "name": "chinese-novel-reader-retention-editor",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-reader-retention-editor",
+      "source_digest": "d69cdec895c56910a55269d05ee065c3349f27f2c1b13efda7e7aba4fb0436ff",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-reader-retention-editor",
+        "available": ".skillctl/available/_creative/chinese-novel-reader-retention-editor",
+        "claude": ".claude/skills/chinese-novel-reader-retention-editor"
+      }
+    },
+    {
+      "name": "chinese-novel-continuity-editor",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-continuity-editor",
+      "source_digest": "5446938829eae576415088eab95efef3784905d714f0ab05f5cb91c5722e3807",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-continuity-editor",
+        "available": ".skillctl/available/_creative/chinese-novel-continuity-editor",
+        "claude": ".claude/skills/chinese-novel-continuity-editor"
+      }
+    },
+    {
+      "name": "chinese-novel-dialogue-editor",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-dialogue-editor",
+      "source_digest": "52a0b61951d647dff8d1fb1e811c531fbb8f0f6a253c154a7b4b6a91ea348b38",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-dialogue-editor",
+        "available": ".skillctl/available/_creative/chinese-novel-dialogue-editor",
+        "claude": ".claude/skills/chinese-novel-dialogue-editor"
+      }
+    },
+    {
+      "name": "chinese-novel-hook-pacing-editor",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-hook-pacing-editor",
+      "source_digest": "8391b4402d467cce487f70f241b1d74a92b08ce7c22bcdf38fb753d7f7ad848e",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-hook-pacing-editor",
+        "available": ".skillctl/available/_creative/chinese-novel-hook-pacing-editor",
+        "claude": ".claude/skills/chinese-novel-hook-pacing-editor"
+      }
+    },
+    {
+      "name": "chinese-novel-style-polisher",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-style-polisher",
+      "source_digest": "e713b3348ff43d7c34827f3cc56e7d025d0928db5278afd1b24fb73e3d6f370f",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-style-polisher",
+        "available": ".skillctl/available/_creative/chinese-novel-style-polisher",
+        "claude": ".claude/skills/chinese-novel-style-polisher"
+      }
+    },
+    {
+      "name": "chinese-novel-revision-producer",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-revision-producer",
+      "source_digest": "10a4a4fc3d495b3128febb438025b64b73d5ad318f47d696f15c360396a6302f",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-revision-producer",
+        "available": ".skillctl/available/_creative/chinese-novel-revision-producer",
+        "claude": ".claude/skills/chinese-novel-revision-producer"
+      }
+    },
+    {
+      "name": "chinese-novel-chapter-reviewer",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-chapter-reviewer",
+      "source_digest": "18fca58efd3e7366b03d17a2fa726d757b16b815f9b4b17158270ee5916cb463",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-chapter-reviewer",
+        "available": ".skillctl/available/_creative/chinese-novel-chapter-reviewer",
+        "claude": ".claude/skills/chinese-novel-chapter-reviewer"
+      }
+    },
+    {
+      "name": "chinese-novel-serial-operations-editor",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-serial-operations-editor",
+      "source_digest": "73620e527a1d49a64619042a02e448e29394b9cd500dd701bb8a30ebd1386b89",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-serial-operations-editor",
+        "available": ".skillctl/available/_creative/chinese-novel-serial-operations-editor",
+        "claude": ".claude/skills/chinese-novel-serial-operations-editor"
+      }
+    },
+    {
+      "name": "chinese-novel-length-form-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-length-form-architect",
+      "source_digest": "09e00a8a2a2805c22a14dc9f337f898212ab3a3ebd23d2f0f8cd6e54e63890b9",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-length-form-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-length-form-architect",
+        "claude": ".claude/skills/chinese-novel-length-form-architect"
+      }
+    },
+    {
+      "name": "chinese-novel-analysis-decomposer",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-analysis-decomposer",
+      "source_digest": "e2d554742d53dd83710cb322aa42311a3aa9d2276384c64d73afa9a44b17c039",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-analysis-decomposer",
+        "available": ".skillctl/available/_creative/chinese-novel-analysis-decomposer",
+        "claude": ".claude/skills/chinese-novel-analysis-decomposer"
+      }
+    },
+    {
+      "name": "chinese-novel-adaptation-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-adaptation-architect",
+      "source_digest": "ebf3a78f2e409e8e425b7e9b997ddb11cb0628494deb31e0afda38c9020c2b19",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-adaptation-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-adaptation-architect",
+        "claude": ".claude/skills/chinese-novel-adaptation-architect"
+      }
+    },
+    {
+      "name": "chinese-novel-content-spinoff-architect",
+      "group": "_creative",
+      "source_path": "/workspaces/yeisme-agent/.skills/yeisme/creative-writing/chinese-novel-content-spinoff-architect",
+      "source_digest": "be0fc8bfc184c67148e6aa4e534507a9a09c28c1fb98e6b404c223c6aa9a1d85",
+      "runtime_paths": {
+        "agents": ".agents/skills/chinese-novel-content-spinoff-architect",
+        "available": ".skillctl/available/_creative/chinese-novel-content-spinoff-architect",
+        "claude": ".claude/skills/chinese-novel-content-spinoff-architect"
+      }
+    }
+  ]
+}

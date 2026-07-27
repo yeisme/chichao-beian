@@ -1,0 +1,20 @@
+schema_version: "project.v3"
+title: "赤潮北岸"
+genre: "待定"
+target_length: "长篇连载"
+style_reference: ""
+project_kind: "novel"
+audience: "男频都市成长、灾变生存、热血友情爱情读者"
+brand_voice: "热血、克制、现实质感、强情绪回报"
+default_platforms:
+default_runtime: "pi"
+default_text_kind: "chapter"
+template_id: "novel"
+scenario_id: "auctra-scenario-novel"
+export_defaults:
+  format: "markdown"
+  output_dir: "./dist"
+review_policy:
+  require_human_acceptance: true
+  allow_auto_overwrite: false
+created_at: "2026-06-20T19:14:36.674424705Z"

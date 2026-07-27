@@ -1,0 +1,12 @@
+{
+  "schema_version": "eikona.copies.v1",
+  "run_id": "run_20260711_102431_788283023",
+  "copies": [
+    {
+      "artifact_id": "artifact_001",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/png-4-3-svg-v01.png",
+      "sha256": "344c05e8d8a837654f8a2566628725f611a3813d31b5c19dea4b3e6c64507b25",
+      "exported_at": "2026-07-11T10:25:32Z"
+    }
+  ]
+}

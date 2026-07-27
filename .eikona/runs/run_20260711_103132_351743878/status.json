@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "schema_version": "eikona.status.v1",
+  "run_id": "run_20260711_103132_351743878",
+  "project_id": "proj_ec428b3596d2bea8",
+  "status": "succeeded",
+  "job_count": 1,
+  "jobs": [
+    {
+      "job_id": "job_001",
+      "status": "succeeded",
+      "model_ref": "openai:gpt-image-2"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "artifact_001",
+      "job_id": "job_001",
+      "project_id": "proj_ec428b3596d2bea8",
+      "handle": "img_72bc3961c9e9",
+      "uri": "eikona://artifact/img_72bc3961c9e9",
+      "title": "重做这张南江城市方向图的地理布局，保留原有暖色纸张、墨线水彩世界观地图风格、南北箭头、河流和入海口，但修正城市尺度与区域关系。参考广州式大型河口",
+      "display_name": "重做这张南江城市方向图的地理布局，保留原有暖色纸张、墨线水彩世界观地图风格、南北箭头、河流和入海口，但修正城市尺度与区域关系。参考广州式大型河口",
+      "file_name": "cbd-1-2-3-4-5-6-7-svg-v01.png",
+      "prompt_excerpt": "重做这张南江城市方向图的地理布局，保留原有暖色纸张、墨线水彩世界观地图风格、南北箭头、河流和入海口，但修正城市尺度与区域关系。参考广州式大型河口",
+      "title_source": "prompt_excerpt",
+      "kind": "image",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103132_351743878/outputs/openai_001.png",
+      "mime_type": "image/png",
+      "sha256": "72bc3961c9e9dc9b2c7ad2cd8d436df830622f44c95d7566dfb08a36bbaf5e56",
+      "size_bytes": 3152661,
+      "created_at": "2026-07-11T10:31:49Z"
+    }
+  ],
+  "cost": {
+    "estimated_usd": 0.025884,
+    "actual_usd": 0.025884,
+    "currency": "USD",
+    "mode": "known"
+  },
+  "next_command": "eikona inspect run_20260711_103132_351743878"
+}

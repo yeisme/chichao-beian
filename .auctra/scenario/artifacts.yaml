@@ -1,0 +1,58 @@
+schema_version: "scenario.artifacts.v1"
+scenario_id: "auctra-scenario-novel"
+kind: "novel"
+display_name: "长篇小说创作"
+manifest_hash: "b1731c7719d7d93b87827586039d7ba4f345e8c8b556ad44d20c436ccfd7c96f"
+artifacts:
+  - id: "full_outline"
+    path: "outline/index.md"
+    required_before:
+      - "chapter_write"
+  - id: "character_index"
+    path: "outline/character/index.md"
+    required_before:
+      - "chapter_write"
+  - id: "world_index"
+    path: "outline/world/index.md"
+    required_before:
+      - "chapter_write"
+  - id: "chapter_card"
+    path: "outline/chapter_001.md"
+    required_before:
+      - "chapter_write"
+  - id: "reader_contract"
+    path: "outline/reader-contract.md"
+    required_before:
+      - "chapter_write"
+      - "major_rewrite"
+  - id: "style_bible"
+    path: "outline/style-bible.md"
+    required_before:
+      - "chapter_write"
+      - "rewrite"
+  - id: "continuity_ledger"
+    path: "outline/continuity-ledger.md"
+    required_before:
+      - "chapter_write"
+      - "review"
+  - id: "foreshadowing_ledger"
+    path: "outline/foreshadowing-ledger.md"
+    required_before:
+      - "chapter_write"
+      - "arc_review"
+  - id: "knowledge_boundary"
+    path: "outline/knowledge-boundary.md"
+    required_before:
+      - "chapter_write"
+      - "dialogue_review"
+  - id: "forbidden_moves"
+    path: "outline/forbidden-moves.md"
+    required_before:
+      - "chapter_write"
+      - "candidate_review"
+  - id: "sensitivity_rules"
+    path: "outline/sensitivity-rules.md"
+    required_before:
+      - "chapter_write"
+      - "export"
+      - "platform_transform"

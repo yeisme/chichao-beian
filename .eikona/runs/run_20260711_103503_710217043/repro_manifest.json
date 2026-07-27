@@ -1,0 +1,13 @@
+{
+  "schema_version": "eikona.repro.v1",
+  "run_id": "run_20260711_103503_710217043",
+  "request_hash": "sha256:0169f21349fcad95cb99e5f6b76bcc06441e42e104e31b1e4bd214e15f4a70f0",
+  "model_ref": "openai:gpt-image-2",
+  "seed": 0,
+  "seed_passed_to_provider": false,
+  "provider": "openai",
+  "accepts_seed": true,
+  "deterministic_seed": false,
+  "reproducibility_class": "rerunnable",
+  "rerun_command": "eikona reroll run_20260711_103503_710217043 --same-request --agent"
+}

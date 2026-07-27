@@ -1,0 +1,31 @@
+{
+  "schema_version": "eikona.artifacts.v1",
+  "run_id": "run_20260711_103503_710217043",
+  "artifacts": [
+    {
+      "artifact_id": "artifact_001",
+      "job_id": "job_001",
+      "project_id": "proj_ec428b3596d2bea8",
+      "handle": "img_94361f76c858",
+      "uri": "eikona://artifact/img_94361f76c858",
+      "title": "Keep the exact same warm paper-and-ink watercolor city map composition, ",
+      "display_name": "Keep the exact same warm paper-and-ink watercolor city map composition, ",
+      "file_name": "keep-the-exact-same-warm-paper-and-ink-watercolo-v01.png",
+      "prompt_excerpt": "Keep the exact same warm paper-and-ink watercolor city map composition, ",
+      "title_source": "prompt_excerpt",
+      "kind": "image",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103503_710217043/outputs/openai_001.png",
+      "mime_type": "image/png",
+      "sha256": "94361f76c85832501193a05e029dcb173669a7b31e8173c8b84113fda41c9897",
+      "size_bytes": 3152661,
+      "created_at": "2026-07-11T10:35:17Z",
+      "exported_to": [
+        {
+          "path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/eikona-revision/keep-the-exact-same-warm-paper-and-ink-watercolo-v01.png",
+          "sha256": "94361f76c85832501193a05e029dcb173669a7b31e8173c8b84113fda41c9897",
+          "exported_at": "2026-07-11T10:35:17Z"
+        }
+      ]
+    }
+  ]
+}

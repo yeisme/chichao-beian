@@ -1,0 +1,4 @@
+# Eikona provider transport records may contain request credentials.
+.eikona/runs/**/provider-jobs/
+.eikona/runs/**/logs/**/poll-response.json
+.eikona/runs/**/logs/**/submit-response.json

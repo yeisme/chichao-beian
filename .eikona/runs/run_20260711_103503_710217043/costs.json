@@ -1,0 +1,10 @@
+{
+  "schema_version": "eikona.costs.v1",
+  "run_id": "run_20260711_103503_710217043",
+  "cost": {
+    "estimated_usd": 0.024945,
+    "actual_usd": 0.024945,
+    "currency": "USD",
+    "mode": "known"
+  }
+}

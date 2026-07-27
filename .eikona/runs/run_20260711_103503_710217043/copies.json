@@ -1,0 +1,12 @@
+{
+  "schema_version": "eikona.copies.v1",
+  "run_id": "run_20260711_103503_710217043",
+  "copies": [
+    {
+      "artifact_id": "artifact_001",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/eikona-revision/keep-the-exact-same-warm-paper-and-ink-watercolo-v01.png",
+      "sha256": "94361f76c85832501193a05e029dcb173669a7b31e8173c8b84113fda41c9897",
+      "exported_at": "2026-07-11T10:35:17Z"
+    }
+  ]
+}

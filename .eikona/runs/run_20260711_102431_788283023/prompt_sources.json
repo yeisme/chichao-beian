@@ -1,0 +1,15 @@
+{
+  "schema_version": "eikona.prompt_sources.v2",
+  "run_id": "run_20260711_102431_788283023",
+  "sources": [
+    {
+      "job_id": "job_001",
+      "source_type": "inline",
+      "text_ref": "prompts/job_001.txt",
+      "sha256": "327cc7a3c9824500d5e3fd7f9db30ab84c31089f52bd6af19bbb5e1331d25e97",
+      "bytes": 1238,
+      "chars": 424,
+      "excerpt": "为中文小说《赤潮北岸》生成一张真实可用的 PNG 城市方向图。主题是虚构城市南江的俯视式世界观地图，不是精确地图，不按比例。画面使用暖色纸张底、墨线与淡彩水彩的小说设定集风格，横向 4:3 构…"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "eikona.run.v1",
+  "run_id": "run_20260711_102431_788283023",
+  "project_id": "proj_ec428b3596d2bea8",
+  "state": "running",
+  "jobs": [
+    "job_001"
+  ],
+  "created_at": "2026-07-11T10:24:31Z"
+}

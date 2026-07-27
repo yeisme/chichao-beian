@@ -1,0 +1,21 @@
+{
+  "schema_version": "eikona.request.v1",
+  "kind": "image.edit",
+  "model_ref": "openai:gpt-image-2",
+  "prompt": "Keep the exact same warm paper-and-ink watercolor city map composition, terrain, circles, bridges, river channels, coast, and all labels. Make only these text corrections: replace the duplicated label “南南江新城区” with exactly “南江新城区”; replace any malformed tiny label near the upper-right mountain with clean readable “外环山地/水库”. Do not add any new regions, do not move circles, do not change the layout, and do not use Latin letters or SVG notation.",
+  "reference_images": [
+    "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103503_710217043/inputs/job_001/cbd-1-2-3-4-5-6-7-svg-v01.png"
+  ],
+  "input_refs": [
+    {
+      "role": "reference_image",
+      "order": 0,
+      "source": "legacy",
+      "original_path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/cbd-1-2-3-4-5-6-7-svg-v01.png",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/.eikona/runs/run_20260711_103503_710217043/inputs/job_001/cbd-1-2-3-4-5-6-7-svg-v01.png",
+      "sha256": "72bc3961c9e9dc9b2c7ad2cd8d436df830622f44c95d7566dfb08a36bbaf5e56",
+      "size_bytes": 3152661,
+      "mime_type": "image/png"
+    }
+  ]
+}

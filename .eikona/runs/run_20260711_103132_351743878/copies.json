@@ -1,0 +1,12 @@
+{
+  "schema_version": "eikona.copies.v1",
+  "run_id": "run_20260711_103132_351743878",
+  "copies": [
+    {
+      "artifact_id": "artifact_001",
+      "path": "/workspaces/yeisme-agent/data/chichao-beian/设定/地理/cbd-1-2-3-4-5-6-7-svg-v01.png",
+      "sha256": "72bc3961c9e9dc9b2c7ad2cd8d436df830622f44c95d7566dfb08a36bbaf5e56",
+      "exported_at": "2026-07-11T10:31:49Z"
+    }
+  ]
+}
